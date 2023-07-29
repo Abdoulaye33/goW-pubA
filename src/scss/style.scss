@@ -1,0 +1,29 @@
+.section {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    background-color: wheat;
+    height: 500px;
+    width: 1300px;
+    text-align: center;
+    & .section__item {
+        scroll-snap-align: center;
+        height: 300px;
+        width: 100%;
+        margin: auto;
+        margin-left: 20px;
+    }
+    & .section__item1 {
+        background-color: rebeccapurple;
+    }
+    & .section__item2 {
+        background-color: aqua;
+    }
+    & .section__item3 {
+        background-color: blue;
+    }
+    & .section__item4 {
+        background-color: springgreen;
+    }
+}
+
