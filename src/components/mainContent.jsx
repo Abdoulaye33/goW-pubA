@@ -3,6 +3,11 @@ import "../scss/style.css";
 
 function MainContent({ temperature, wind, description, day1, day2, day3 }) {
   return (
+    <>
+    <div>
+      <h1>Weather of : Liege(City(Only))</h1>
+      <em>impossible for me  now to manipulate input in a url</em>
+    </div>  
     <div className="section">
       <div className="section__item1 section__item">
         <h2>Today</h2>
@@ -26,6 +31,7 @@ function MainContent({ temperature, wind, description, day1, day2, day3 }) {
         <strong>Wind: {day3.wind}</strong>
       </div>
     </div>
+    </>
   );
 }
 
